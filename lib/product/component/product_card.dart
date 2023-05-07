@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled1/common/const/colors.dart';
-import 'package:untitled1/common/provider/model/product_model.dart';
+import 'package:untitled1/product/model/product_model.dart';
 
 import '../../restaurant/model/restaurant_detail_model.dart';
 
