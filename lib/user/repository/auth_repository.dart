@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:untitled1/common/component/utils/data_utils.dart';
 import 'package:untitled1/common/const/data.dart';
 import 'package:untitled1/common/dio/dio.dart';
 import 'package:untitled1/common/model/login_response.dart';
 import 'package:untitled1/common/model/token_response.dart';
+import 'package:untitled1/common/utils/data_utils.dart';
 
 final authRepositoryProvider = Provider<AuthRepository>((ref) {
   final dio = ref.watch(dioProvider);

@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart' hide Headers;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:retrofit/http.dart';
-import 'package:untitled1/common/component/repository/base_pagination_repository.dart';
 import 'package:untitled1/common/const/data.dart';
 import 'package:untitled1/common/dio/dio.dart';
 import 'package:untitled1/common/model/cursor_pagination_model.dart';
 import 'package:untitled1/common/model/pagination_params.dart';
+import 'package:untitled1/common/repository/base_pagination_repository.dart';
 import 'package:untitled1/product/model/product_model.dart';
 
 part 'product_repository.g.dart';

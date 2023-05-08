@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:untitled1/common/component/view/root_tab.dart';
 import 'package:untitled1/common/const/colors.dart';
 import 'package:untitled1/common/layout/default_layout.dart';
+import 'package:untitled1/common/view/root_tab.dart';
 
 class OrderDoneScreen extends StatelessWidget {
   static String get routeName => 'orderDone';

@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import '../../const/data.dart';
+import 'package:untitled1/common/const/data.dart';
 
 class DataUtils {
   static String pathToUrl(String value) {

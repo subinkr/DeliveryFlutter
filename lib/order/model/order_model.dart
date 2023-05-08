@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:untitled1/common/component/utils/data_utils.dart';
 import 'package:untitled1/common/model/model_with_id.dart';
+import 'package:untitled1/common/utils/data_utils.dart';
 import 'package:untitled1/restaurant/model/restaurant_model.dart';
 
 part 'order_model.g.dart';
@@ -48,14 +48,17 @@ class OrderModel implements IModelWithId {
   final List<OrderProductAndCountModel> products;
   final int totalPrice;
   final RestaurantModel restaurant;
-  final String createAt;
+  @JsonKey(
+    fromJson: DataUtils.stringToDateTime,
+  )
+  final DateTime createdAt;
 
   OrderModel({
     required this.id,
     required this.products,
     required this.totalPrice,
     required this.restaurant,
-    required this.createAt,
+    required this.createdAt,
   });
 
   factory OrderModel.fromJson(Map<String, dynamic> json)

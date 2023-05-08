@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:untitled1/common/component/utils/data_utils.dart';
+import 'package:untitled1/common/utils/data_utils.dart';
 
 part 'user_model.g.dart';
 

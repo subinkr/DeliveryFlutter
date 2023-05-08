@@ -1,12 +1,7 @@
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:untitled1/common/component/view/root_tab.dart';
 import 'package:untitled1/common/const/colors.dart';
-import 'package:untitled1/common/const/data.dart';
 import 'package:untitled1/common/layout/default_layout.dart';
-import 'package:untitled1/common/secure_storage/secore_storage.dart';
-import 'package:untitled1/user/view/login_screen.dart';
 
 class SplashScreen extends ConsumerWidget {
   static String get routeName => 'splash';

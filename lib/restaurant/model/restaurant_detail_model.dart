@@ -1,10 +1,7 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:untitled1/common/model/model_with_id.dart';
+import 'package:untitled1/common/utils/data_utils.dart';
 import 'package:untitled1/restaurant/model/restaurant_model.dart';
-
-import '../../common/component/utils/data_utils.dart';
-import '../../common/component/utils/data_utils.dart';
-import '../../common/const/data.dart';
 
 part 'restaurant_detail_model.g.dart';
 
